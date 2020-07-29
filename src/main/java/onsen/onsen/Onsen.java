@@ -21,7 +21,8 @@ public final class Onsen extends JavaPlugin implements Listener {
     @Override
     public void onDisable() {
     }
-
+    
+    @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (cmd.getName().equalsIgnoreCase("onsen")) {
             if(!(sender instanceof Player)) return false;

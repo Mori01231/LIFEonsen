@@ -1,0 +1,22 @@
+name: Onsen
+version: ${project.version}
+main: onsen.onsen.Onsen
+api-version: '1.15'
+authors: [ghost_46]
+description: LIFE pligin
+
+commands:
+  onsen:
+    normal:
+      description: 通常温泉tp
+    lava:
+      description: 溶岩温泉tp
+  setonsen:
+    normal:
+      description: 通常温泉登録
+    lava:
+      description: 溶岩温泉登録
+
+permissions:
+  onsen.set.op:
+    default: op

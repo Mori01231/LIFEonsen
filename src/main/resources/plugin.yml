@@ -16,6 +16,8 @@ commands:
       description: 通常温泉登録
     lava:
       description: 溶岩温泉登録
+    ringo:
+      description: リンゴ村温泉登録
 
 permissions:
   onsen.set.op:
